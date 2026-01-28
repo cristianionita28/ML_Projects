@@ -1,0 +1,5 @@
+# Minimal runtime dependencies (derived from notebook imports)
+numpy
+matplotlib
+torch
+torchvision

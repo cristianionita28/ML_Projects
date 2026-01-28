@@ -1,0 +1,15 @@
+name: cifar10
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      # If you want CUDA-enabled PyTorch on Windows, install the matching CUDA wheels from PyTorch:
+      # https://pytorch.org/get-started/locally/
