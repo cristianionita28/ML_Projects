@@ -1,0 +1,11 @@
+name: ml-supervised-comparison
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - ipython
